@@ -4,7 +4,7 @@ import (
     "math/rand"
 )
 
-const charters = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789"
+const charters = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789[]{}<>?#!%^&*~,."
 
 // RandomString 随机字符串
 func RandomString(n int) string {
